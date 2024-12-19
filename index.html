@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodHub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>MoodHub</h1>
+      <button id="login-btn">Login</button>
+    </div>
+  </header>
+
+  <section id="mood-status">
+    <h2>What's your mood today?</h2>
+    <div class="mood-slider">
+      <input type="range" id="mood-slider" min="0" max="10" step="1" value="5">
+      <label for="mood-slider">Mood scale: <span id="mood-value">5</span></label>
+    </div>
+    <div class="mood-selector">
+      <button onclick="updateMood('Happy')">Happy</button>
+      <button onclick="updateMood('Sad')">Sad</button>
+      <button onclick="updateMood('Excited')">Excited</button>
+      <button onclick="updateMood('Anxious')">Anxious</button>
+      <button onclick="updateMood('Neutral')">Neutral</button>
+    </div>
+  </section>
+
+  <section id="mood-recommendations">
+    <h2>Recommended Music/Content</h2>
+    <div id="recommendations-list">
+      <!-- Music or content recommendations will appear here based on the mood -->
+    </div>
+  </section>
+
+  <section id="mood-feed">
+    <h2>Your Mood Feed</h2>
+    <div id="feed">
+      <!-- Mood feed of friends or similar mood people -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 MoodHub - A social media for your emotions</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

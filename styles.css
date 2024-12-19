@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar h1 {
+  display: inline-block;
+}
+
+button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #007bb5;
+}
+
+section {
+  margin: 20px;
+}
+
+.mood-slider {
+  text-align: center;
+}
+
+.mood-selector button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#recommendations-list {
+  margin-top: 10px;
+  background-color: #e9e9e9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#feed {
+  margin-top: 10px;
+}
+
+#feed div {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
